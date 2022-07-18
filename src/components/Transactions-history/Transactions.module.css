@@ -1,0 +1,29 @@
+.transactionHistory {
+    width: 700px;
+    border: 1px;
+    border-radius: 5px;
+    border-color: rgb(211, 211, 211);
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-transform: uppercase;
+    background-color: #00bcd5;
+    color: #ffffff;
+}
+
+.item {
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    border: rgb(224, 228, 236);
+}
+
+.row {
+    background: #ffffff;
+}
+
+.row:nth-child(2n) {
+    background: #f0f4fd;
+}
